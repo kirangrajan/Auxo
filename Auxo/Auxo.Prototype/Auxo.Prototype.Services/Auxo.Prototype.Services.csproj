@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ImageResizer" Version="4.2.8" />
+    <PackageReference Include="LazZiya.ImageResize" Version="4.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Auxo.Prototype.DomainModel\Auxo.Prototype.DomainModel.csproj" />
+  </ItemGroup>
+
+</Project>

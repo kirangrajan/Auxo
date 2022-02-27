@@ -1,0 +1,7 @@
+C:\Projects\TestProjects\Auxo\Demo\obj\Debug\net7.0\Demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\TestProjects\Auxo\Demo\obj\Debug\net7.0\Demo.AssemblyInfoInputs.cache
+C:\Projects\TestProjects\Auxo\Demo\obj\Debug\net7.0\Demo.AssemblyInfo.cs
+C:\Projects\TestProjects\Auxo\Demo\obj\Debug\net7.0\Demo.csproj.CoreCompileInputs.cache
+C:\Projects\TestProjects\Auxo\Demo\obj\Debug\net7.0\Demo.MvcApplicationPartsAssemblyInfo.cs
+C:\Projects\TestProjects\Auxo\Demo\obj\Debug\net7.0\Demo.MvcApplicationPartsAssemblyInfo.cache
+C:\Projects\TestProjects\Auxo\Demo\obj\Debug\net7.0\Demo.csproj.AssemblyReference.cache

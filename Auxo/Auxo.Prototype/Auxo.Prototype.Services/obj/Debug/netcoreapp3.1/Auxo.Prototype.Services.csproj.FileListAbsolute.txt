@@ -1,0 +1,13 @@
+C:\Projects\ACC\ACCIDS\Auxo.Prototype\Auxo.Prototype.Services\bin\Debug\netcoreapp3.1\Auxo.Prototype.Services.deps.json
+C:\Projects\ACC\ACCIDS\Auxo.Prototype\Auxo.Prototype.Services\bin\Debug\netcoreapp3.1\Auxo.Prototype.Services.dll
+C:\Projects\ACC\ACCIDS\Auxo.Prototype\Auxo.Prototype.Services\bin\Debug\netcoreapp3.1\Auxo.Prototype.Services.pdb
+C:\Projects\ACC\ACCIDS\Auxo.Prototype\Auxo.Prototype.Services\obj\Debug\netcoreapp3.1\Auxo.Prototype.Services.csproj.AssemblyReference.cache
+C:\Projects\ACC\ACCIDS\Auxo.Prototype\Auxo.Prototype.Services\obj\Debug\netcoreapp3.1\Auxo.Prototype.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\ACC\ACCIDS\Auxo.Prototype\Auxo.Prototype.Services\obj\Debug\netcoreapp3.1\Auxo.Prototype.Services.AssemblyInfoInputs.cache
+C:\Projects\ACC\ACCIDS\Auxo.Prototype\Auxo.Prototype.Services\obj\Debug\netcoreapp3.1\Auxo.Prototype.Services.AssemblyInfo.cs
+C:\Projects\ACC\ACCIDS\Auxo.Prototype\Auxo.Prototype.Services\obj\Debug\netcoreapp3.1\Auxo.Prototype.Services.csproj.CoreCompileInputs.cache
+C:\Projects\ACC\ACCIDS\Auxo.Prototype\Auxo.Prototype.Services\obj\Debug\netcoreapp3.1\Auxo.Prototype.Services.dll
+C:\Projects\ACC\ACCIDS\Auxo.Prototype\Auxo.Prototype.Services\obj\Debug\netcoreapp3.1\Auxo.Prototype.Services.pdb
+C:\Projects\ACC\ACCIDS\Auxo.Prototype\Auxo.Prototype.Services\bin\Debug\netcoreapp3.1\Auxo.Prototype.DomainModel.dll
+C:\Projects\ACC\ACCIDS\Auxo.Prototype\Auxo.Prototype.Services\bin\Debug\netcoreapp3.1\Auxo.Prototype.DomainModel.pdb
+C:\Projects\ACC\ACCIDS\Auxo.Prototype\Auxo.Prototype.Services\obj\Debug\netcoreapp3.1\Auxo.Prototype.Services.csproj.CopyComplete
