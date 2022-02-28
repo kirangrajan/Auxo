@@ -15,7 +15,7 @@ namespace Auxo.Prototype.Services
 
         private const int OptimumHeight = 800;
 
-        private const string DefaultSaveLocation = @"c:\";
+        private const string DefaultSaveLocation = @"c:\temp\";
 
         private readonly IGenericImageProcessor _genericImageProcessor;
 
