@@ -22,7 +22,7 @@ namespace Auxo.Prototype.Services
                                                                           {
                                                                               { ".jpg", ImageFormat.Jpeg },
                                                                               { ".jpeg", ImageFormat.Jpeg },
-                                                                              { ".pnp", ImageFormat.Png },
+                                                                              { ".png", ImageFormat.Png },
                                                                           };
 
         /// <summary>
