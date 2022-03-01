@@ -27,7 +27,7 @@ namespace Auxo.Prototype.Services.Test
             var processor = new GenericImageProcessor();
 
             // Act
-            var response = await processor.ResizeImageAsJpeg(request, new MemoryStream());
+            var response = await processor.ResizeImage(request, new MemoryStream());
 
             // Assert
             Assert.AreEqual("Unsupported file type", response.FailureReason);

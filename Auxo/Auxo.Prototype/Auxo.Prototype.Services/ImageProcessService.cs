@@ -17,11 +17,14 @@ namespace Auxo.Prototype.Services
 
         private const string DefaultSaveLocation = @"c:\temp\";
 
-        private readonly IGenericImageProcessor _genericImageProcessor;
+        private readonly IBaseImageProcessor _imageProcessor;
 
-        public ImageProcessService(IGenericImageProcessor genericImageProcessor)
+        private readonly IBaseImageProcessor _magicNetImageProcessor;
+
+        public ImageProcessService(IGenericImageProcessor imageProcessor, IMagicNetImageProcessor magicNetImageProcessor)
         {
-            this._genericImageProcessor = genericImageProcessor;
+            this._imageProcessor = imageProcessor;
+            this._magicNetImageProcessor = magicNetImageProcessor;
         }
 
         /// <summary>
@@ -44,24 +47,11 @@ namespace Auxo.Prototype.Services
 
             request.FileName = $"{DefaultSaveLocation}{request.FileName}_Resized{request.FileExtension}";
 
-            var response = await this._genericImageProcessor.ResizeImageAsJpeg(request, stream);
+            var response = await this._imageProcessor.ResizeImage(request, stream);
+
+           // var response = await this._magicNetImageProcessor.ResizeImage(request, stream);
 
             return response;
-        }
-
-        private static ImageCodecInfo GetEncoderInfo(string mimeType)
-        {
-            ImageCodecInfo[] encoders;
-            encoders = ImageCodecInfo.GetImageEncoders();
-            foreach (ImageCodecInfo ici in encoders)
-            {
-                if (ici.MimeType == mimeType)
-                {
-                    return ici;
-                }
-            }
-
-            return null;
         }
     }
 }

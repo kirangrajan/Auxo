@@ -16,12 +16,14 @@ namespace Auxo.Prototype.Services.Test
     public class ImageProcessServiceTest
     {
         private Mock<IGenericImageProcessor> _genericImageProcessor;
-
+        private Mock<IMagicNetImageProcessor> _magicNetImageProcessor;
         [TestMethod]
         public async Task Should_Rename_File_Before_Saving()
         {
             // Arrange
             this._genericImageProcessor = new Mock<IGenericImageProcessor>();
+            this._magicNetImageProcessor = new Mock<IMagicNetImageProcessor>();
+
             var request = new ImageProcessRequest
                               {
                                   MinimumHeight = 10,
@@ -30,13 +32,15 @@ namespace Auxo.Prototype.Services.Test
                                   FileName = "c:\\Test.jpg"
                               };
             this._genericImageProcessor
-                .Setup(p => p.ResizeImageAsJpeg(It.IsAny<ImageProcessRequest>(), It.IsAny<Stream>())).ReturnsAsync(
+                .Setup(p => p.ResizeImage(It.IsAny<ImageProcessRequest>(), It.IsAny<Stream>())).ReturnsAsync(
                     new ImageProcessResponse
                         {
                             FileHeight = 1000, FileWidth = 1000, Filename = "c:\\Test_Revised.jpg"
                         });
 
-            var imageService = new ImageProcessService(this._genericImageProcessor.Object);
+            var imageService = new ImageProcessService(
+                this._genericImageProcessor.Object,
+                this._magicNetImageProcessor.Object);
 
             // Act
             var response = await imageService.ProcessImage(request, new MemoryStream());
@@ -50,6 +54,7 @@ namespace Auxo.Prototype.Services.Test
         {
             // Arrange
             this._genericImageProcessor = new Mock<IGenericImageProcessor>();
+            this._magicNetImageProcessor = new Mock<IMagicNetImageProcessor>();
             var request = new ImageProcessRequest
                               {
                                   MinimumHeight = 10,
@@ -57,14 +62,16 @@ namespace Auxo.Prototype.Services.Test
                                   FileExtension = ".jpg",
                                   FileName = "c:\\Test.jpg"
                               };
-            this._genericImageProcessor.Setup(p => p.ResizeImageAsJpeg(It.IsAny<ImageProcessRequest>(), It.IsAny<Stream>())).ReturnsAsync(
+            this._genericImageProcessor.Setup(p => p.ResizeImage(It.IsAny<ImageProcessRequest>(), It.IsAny<Stream>())).ReturnsAsync(
                 new ImageProcessResponse
                     {
                         FileHeight = 1000,
                         FileWidth = 1000
                     });
 
-            var imageService = new ImageProcessService(this._genericImageProcessor.Object);
+            var imageService = new ImageProcessService(
+                this._genericImageProcessor.Object,
+                this._magicNetImageProcessor.Object);
 
             // Act
             var response = await imageService.ProcessImage(request, new MemoryStream());

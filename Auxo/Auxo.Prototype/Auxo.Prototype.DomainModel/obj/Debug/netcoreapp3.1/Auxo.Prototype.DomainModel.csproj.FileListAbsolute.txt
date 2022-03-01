@@ -8,3 +8,13 @@ C:\Projects\ACC\ACCIDS\Auxo.Prototype\Auxo.Prototype.DomainModel\obj\Debug\netco
 C:\Projects\ACC\ACCIDS\Auxo.Prototype\Auxo.Prototype.DomainModel\obj\Debug\netcoreapp3.1\Auxo.Prototype.DomainModel.csproj.CoreCompileInputs.cache
 C:\Projects\ACC\ACCIDS\Auxo.Prototype\Auxo.Prototype.DomainModel\obj\Debug\netcoreapp3.1\Auxo.Prototype.DomainModel.dll
 C:\Projects\ACC\ACCIDS\Auxo.Prototype\Auxo.Prototype.DomainModel\obj\Debug\netcoreapp3.1\Auxo.Prototype.DomainModel.pdb
+C:\Projects\TestProjects\Auxo.Tests\Auxo\Auxo\Auxo.Prototype\Auxo.Prototype.DomainModel\bin\Debug\netcoreapp3.1\Auxo.Prototype.DomainModel.deps.json
+C:\Projects\TestProjects\Auxo.Tests\Auxo\Auxo\Auxo.Prototype\Auxo.Prototype.DomainModel\bin\Debug\netcoreapp3.1\Auxo.Prototype.DomainModel.dll
+C:\Projects\TestProjects\Auxo.Tests\Auxo\Auxo\Auxo.Prototype\Auxo.Prototype.DomainModel\bin\Debug\netcoreapp3.1\Auxo.Prototype.DomainModel.pdb
+C:\Projects\TestProjects\Auxo.Tests\Auxo\Auxo\Auxo.Prototype\Auxo.Prototype.DomainModel\obj\Debug\netcoreapp3.1\Auxo.Prototype.DomainModel.csproj.AssemblyReference.cache
+C:\Projects\TestProjects\Auxo.Tests\Auxo\Auxo\Auxo.Prototype\Auxo.Prototype.DomainModel\obj\Debug\netcoreapp3.1\Auxo.Prototype.DomainModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\TestProjects\Auxo.Tests\Auxo\Auxo\Auxo.Prototype\Auxo.Prototype.DomainModel\obj\Debug\netcoreapp3.1\Auxo.Prototype.DomainModel.AssemblyInfoInputs.cache
+C:\Projects\TestProjects\Auxo.Tests\Auxo\Auxo\Auxo.Prototype\Auxo.Prototype.DomainModel\obj\Debug\netcoreapp3.1\Auxo.Prototype.DomainModel.AssemblyInfo.cs
+C:\Projects\TestProjects\Auxo.Tests\Auxo\Auxo\Auxo.Prototype\Auxo.Prototype.DomainModel\obj\Debug\netcoreapp3.1\Auxo.Prototype.DomainModel.csproj.CoreCompileInputs.cache
+C:\Projects\TestProjects\Auxo.Tests\Auxo\Auxo\Auxo.Prototype\Auxo.Prototype.DomainModel\obj\Debug\netcoreapp3.1\Auxo.Prototype.DomainModel.dll
+C:\Projects\TestProjects\Auxo.Tests\Auxo\Auxo\Auxo.Prototype\Auxo.Prototype.DomainModel\obj\Debug\netcoreapp3.1\Auxo.Prototype.DomainModel.pdb

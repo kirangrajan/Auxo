@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\ACC\\ACCIDS\\Auxo.Prototype\\Auxo.Prototype.Services\\Auxo.Prototype.Services.csproj": {}
+    "C:\\Projects\\TestProjects\\Auxo.Tests\\Auxo\\Auxo\\Auxo.Prototype\\Auxo.Prototype.Services\\Auxo.Prototype.Services.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\ACC\\ACCIDS\\Auxo.Prototype\\Auxo.Prototype.DomainModel\\Auxo.Prototype.DomainModel.csproj": {
+    "C:\\Projects\\TestProjects\\Auxo.Tests\\Auxo\\Auxo\\Auxo.Prototype\\Auxo.Prototype.DomainModel\\Auxo.Prototype.DomainModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\ACC\\ACCIDS\\Auxo.Prototype\\Auxo.Prototype.DomainModel\\Auxo.Prototype.DomainModel.csproj",
+        "projectUniqueName": "C:\\Projects\\TestProjects\\Auxo.Tests\\Auxo\\Auxo\\Auxo.Prototype\\Auxo.Prototype.DomainModel\\Auxo.Prototype.DomainModel.csproj",
         "projectName": "Auxo.Prototype.DomainModel",
-        "projectPath": "C:\\Projects\\ACC\\ACCIDS\\Auxo.Prototype\\Auxo.Prototype.DomainModel\\Auxo.Prototype.DomainModel.csproj",
+        "projectPath": "C:\\Projects\\TestProjects\\Auxo.Tests\\Auxo\\Auxo\\Auxo.Prototype\\Auxo.Prototype.DomainModel\\Auxo.Prototype.DomainModel.csproj",
         "packagesPath": "C:\\Users\\kiran\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\ACC\\ACCIDS\\Auxo.Prototype\\Auxo.Prototype.DomainModel\\obj\\",
+        "outputPath": "C:\\Projects\\TestProjects\\Auxo.Tests\\Auxo\\Auxo\\Auxo.Prototype\\Auxo.Prototype.DomainModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Projects\\ACC\\ACCIDS\\Auxo.Prototype\\Auxo.Prototype.Services\\Auxo.Prototype.Services.csproj": {
+    "C:\\Projects\\TestProjects\\Auxo.Tests\\Auxo\\Auxo\\Auxo.Prototype\\Auxo.Prototype.Services\\Auxo.Prototype.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\ACC\\ACCIDS\\Auxo.Prototype\\Auxo.Prototype.Services\\Auxo.Prototype.Services.csproj",
+        "projectUniqueName": "C:\\Projects\\TestProjects\\Auxo.Tests\\Auxo\\Auxo\\Auxo.Prototype\\Auxo.Prototype.Services\\Auxo.Prototype.Services.csproj",
         "projectName": "Auxo.Prototype.Services",
-        "projectPath": "C:\\Projects\\ACC\\ACCIDS\\Auxo.Prototype\\Auxo.Prototype.Services\\Auxo.Prototype.Services.csproj",
+        "projectPath": "C:\\Projects\\TestProjects\\Auxo.Tests\\Auxo\\Auxo\\Auxo.Prototype\\Auxo.Prototype.Services\\Auxo.Prototype.Services.csproj",
         "packagesPath": "C:\\Users\\kiran\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\ACC\\ACCIDS\\Auxo.Prototype\\Auxo.Prototype.Services\\obj\\",
+        "outputPath": "C:\\Projects\\TestProjects\\Auxo.Tests\\Auxo\\Auxo\\Auxo.Prototype\\Auxo.Prototype.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -96,8 +96,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Projects\\ACC\\ACCIDS\\Auxo.Prototype\\Auxo.Prototype.DomainModel\\Auxo.Prototype.DomainModel.csproj": {
-                "projectPath": "C:\\Projects\\ACC\\ACCIDS\\Auxo.Prototype\\Auxo.Prototype.DomainModel\\Auxo.Prototype.DomainModel.csproj"
+              "C:\\Projects\\TestProjects\\Auxo.Tests\\Auxo\\Auxo\\Auxo.Prototype\\Auxo.Prototype.DomainModel\\Auxo.Prototype.DomainModel.csproj": {
+                "projectPath": "C:\\Projects\\TestProjects\\Auxo.Tests\\Auxo\\Auxo\\Auxo.Prototype\\Auxo.Prototype.DomainModel\\Auxo.Prototype.DomainModel.csproj"
               }
             }
           }
@@ -119,6 +119,10 @@
             "LazZiya.ImageResize": {
               "target": "Package",
               "version": "[4.1.0, )"
+            },
+            "Magick.NET-Q16-AnyCPU": {
+              "target": "Package",
+              "version": "[10.0.0, )"
             }
           },
           "imports": [

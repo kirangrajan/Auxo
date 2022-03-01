@@ -18,6 +18,7 @@ namespace Auxo.AzureFunctions
         {
             builderServices.AddScoped<IImageProcessService, ImageProcessService>();
             builderServices.AddScoped<IGenericImageProcessor, GenericImageProcessor>();
+            builderServices.AddScoped<IMagicNetImageProcessor, MagicNetImageProcessor>();
         }
     }
 }

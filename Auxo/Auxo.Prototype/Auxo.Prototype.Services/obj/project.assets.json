@@ -23,6 +23,56 @@
           "lib/netstandard2.0/LazZiya.ImageResize.dll": {}
         }
       },
+      "Magick.NET-Q16-AnyCPU/10.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Magick.NET.Core": "10.0.0"
+        },
+        "compile": {
+          "lib/netstandard21/Magick.NET-Q16-AnyCPU.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard21/Magick.NET-Q16-AnyCPU.dll": {}
+        },
+        "build": {
+          "build/netstandard20/Magick.NET-Q16-AnyCPU.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-musl-x64/native/Magick.Native-Q16-x64.dll.so": {
+            "assetType": "native",
+            "rid": "linux-musl-x64"
+          },
+          "runtimes/linux-x64/native/Magick.Native-Q16-x64.dll.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/Magick.Native-Q16-x64.dll.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-arm64/native/Magick.Native-Q16-arm64.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/Magick.Native-Q16-x64.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/Magick.Native-Q16-x86.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "Magick.NET.Core/10.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard21/Magick.NET.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard21/Magick.NET.Core.dll": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/5.0.0": {
         "type": "package",
         "compile": {
@@ -112,6 +162,52 @@
         "lib/netstandard2.0/LazZiya.ImageResize.dll",
         "lib/netstandard2.0/LazZiya.ImageResize.xml",
         "license.txt"
+      ]
+    },
+    "Magick.NET-Q16-AnyCPU/10.0.0": {
+      "sha512": "C7ILz67Y16Suc5DetFL832Si993T4TAfBa0btKhV08sk8H3IYsjbV/5UL8yS3YOwrLWFhCFll4lBql8Rke/rIA==",
+      "type": "package",
+      "path": "magick.net-q16-anycpu/10.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Magick.NET.icon.png",
+        "Notice.linux-musl.txt",
+        "Notice.linux.txt",
+        "Notice.osx.txt",
+        "Notice.win.txt",
+        "build/netstandard20/Magick.NET-Q16-AnyCPU.targets",
+        "lib/netstandard20/Magick.NET-Q16-AnyCPU.dll",
+        "lib/netstandard20/Magick.NET-Q16-AnyCPU.xml",
+        "lib/netstandard21/Magick.NET-Q16-AnyCPU.dll",
+        "lib/netstandard21/Magick.NET-Q16-AnyCPU.xml",
+        "magick.net-q16-anycpu.10.0.0.nupkg.sha512",
+        "magick.net-q16-anycpu.nuspec",
+        "runtimes/linux-musl-x64/native/Magick.Native-Q16-x64.dll.so",
+        "runtimes/linux-x64/native/Magick.Native-Q16-x64.dll.so",
+        "runtimes/osx-x64/native/Magick.Native-Q16-x64.dll.dylib",
+        "runtimes/win-arm64/native/Magick.Native-Q16-arm64.dll",
+        "runtimes/win-x64/native/Magick.Native-Q16-x64.dll",
+        "runtimes/win-x86/native/Magick.Native-Q16-x86.dll"
+      ]
+    },
+    "Magick.NET.Core/10.0.0": {
+      "sha512": "9uhWIPL/kujwJL1cmzfE6qZnEgGJcLHDl6s4sCZn2+mh44Fl2sgwcxzRvmbhR6pL6tKFeqwQPv/YeUnKVWOSNQ==",
+      "type": "package",
+      "path": "magick.net.core/10.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Copyright.txt",
+        "Magick.NET.icon.png",
+        "lib/net20/Magick.NET.Core.dll",
+        "lib/net20/Magick.NET.Core.xml",
+        "lib/netstandard20/Magick.NET.Core.dll",
+        "lib/netstandard20/Magick.NET.Core.xml",
+        "lib/netstandard21/Magick.NET.Core.dll",
+        "lib/netstandard21/Magick.NET.Core.xml",
+        "magick.net.core.10.0.0.nupkg.sha512",
+        "magick.net.core.nuspec"
       ]
     },
     "Microsoft.NETCore.Platforms/5.0.0": {
@@ -212,7 +308,8 @@
     ".NETCoreApp,Version=v3.1": [
       "Auxo.Prototype.DomainModel >= 1.0.0",
       "ImageResizer >= 4.2.8",
-      "LazZiya.ImageResize >= 4.1.0"
+      "LazZiya.ImageResize >= 4.1.0",
+      "Magick.NET-Q16-AnyCPU >= 10.0.0"
     ]
   },
   "packageFolders": {
@@ -224,11 +321,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\ACC\\ACCIDS\\Auxo.Prototype\\Auxo.Prototype.Services\\Auxo.Prototype.Services.csproj",
+      "projectUniqueName": "C:\\Projects\\TestProjects\\Auxo.Tests\\Auxo\\Auxo\\Auxo.Prototype\\Auxo.Prototype.Services\\Auxo.Prototype.Services.csproj",
       "projectName": "Auxo.Prototype.Services",
-      "projectPath": "C:\\Projects\\ACC\\ACCIDS\\Auxo.Prototype\\Auxo.Prototype.Services\\Auxo.Prototype.Services.csproj",
+      "projectPath": "C:\\Projects\\TestProjects\\Auxo.Tests\\Auxo\\Auxo\\Auxo.Prototype\\Auxo.Prototype.Services\\Auxo.Prototype.Services.csproj",
       "packagesPath": "C:\\Users\\kiran\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\ACC\\ACCIDS\\Auxo.Prototype\\Auxo.Prototype.Services\\obj\\",
+      "outputPath": "C:\\Projects\\TestProjects\\Auxo.Tests\\Auxo\\Auxo\\Auxo.Prototype\\Auxo.Prototype.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -252,8 +349,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Projects\\ACC\\ACCIDS\\Auxo.Prototype\\Auxo.Prototype.DomainModel\\Auxo.Prototype.DomainModel.csproj": {
-              "projectPath": "C:\\Projects\\ACC\\ACCIDS\\Auxo.Prototype\\Auxo.Prototype.DomainModel\\Auxo.Prototype.DomainModel.csproj"
+            "C:\\Projects\\TestProjects\\Auxo.Tests\\Auxo\\Auxo\\Auxo.Prototype\\Auxo.Prototype.DomainModel\\Auxo.Prototype.DomainModel.csproj": {
+              "projectPath": "C:\\Projects\\TestProjects\\Auxo.Tests\\Auxo\\Auxo\\Auxo.Prototype\\Auxo.Prototype.DomainModel\\Auxo.Prototype.DomainModel.csproj"
             }
           }
         }
@@ -275,6 +372,10 @@
           "LazZiya.ImageResize": {
             "target": "Package",
             "version": "[4.1.0, )"
+          },
+          "Magick.NET-Q16-AnyCPU": {
+            "target": "Package",
+            "version": "[10.0.0, )"
           }
         },
         "imports": [

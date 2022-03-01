@@ -10,7 +10,8 @@
         "dependencies": {
           "Auxo.Prototype.DomainModel": "1.0.0",
           "ImageResizer": "4.2.8",
-          "LazZiya.ImageResize": "4.1.0"
+          "LazZiya.ImageResize": "4.1.0",
+          "Magick.NET-Q16-AnyCPU": "10.0.0"
         },
         "runtime": {
           "Auxo.Prototype.Services.dll": {}
@@ -32,6 +33,57 @@
           "lib/netstandard2.0/LazZiya.ImageResize.dll": {
             "assemblyVersion": "4.1.0.0",
             "fileVersion": "4.1.0.0"
+          }
+        }
+      },
+      "Magick.NET-Q16-AnyCPU/10.0.0": {
+        "dependencies": {
+          "Magick.NET.Core": "10.0.0"
+        },
+        "runtime": {
+          "lib/netstandard21/Magick.NET-Q16-AnyCPU.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.0.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-musl-x64/native/Magick.Native-Q16-x64.dll.so": {
+            "rid": "linux-musl-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/Magick.Native-Q16-x64.dll.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/Magick.Native-Q16-x64.dll.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/Magick.Native-Q16-arm64.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "7.1.0.26"
+          },
+          "runtimes/win-x64/native/Magick.Native-Q16-x64.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "7.1.0.26"
+          },
+          "runtimes/win-x86/native/Magick.Native-Q16-x86.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "7.1.0.26"
+          }
+        }
+      },
+      "Magick.NET.Core/10.0.0": {
+        "runtime": {
+          "lib/netstandard21/Magick.NET.Core.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.0.0"
           }
         }
       },
@@ -106,6 +158,20 @@
       "sha512": "sha512-bTAJ7Coa2I2PAKw7rcIyjVZlpJnoJacTpkAYAFDSQTrWC4r6m19zoVfMYbn/CXsJc9mfVqznuf0Ql0uwvproKg==",
       "path": "lazziya.imageresize/4.1.0",
       "hashPath": "lazziya.imageresize.4.1.0.nupkg.sha512"
+    },
+    "Magick.NET-Q16-AnyCPU/10.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C7ILz67Y16Suc5DetFL832Si993T4TAfBa0btKhV08sk8H3IYsjbV/5UL8yS3YOwrLWFhCFll4lBql8Rke/rIA==",
+      "path": "magick.net-q16-anycpu/10.0.0",
+      "hashPath": "magick.net-q16-anycpu.10.0.0.nupkg.sha512"
+    },
+    "Magick.NET.Core/10.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9uhWIPL/kujwJL1cmzfE6qZnEgGJcLHDl6s4sCZn2+mh44Fl2sgwcxzRvmbhR6pL6tKFeqwQPv/YeUnKVWOSNQ==",
+      "path": "magick.net.core/10.0.0",
+      "hashPath": "magick.net.core.10.0.0.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/5.0.0": {
       "type": "package",

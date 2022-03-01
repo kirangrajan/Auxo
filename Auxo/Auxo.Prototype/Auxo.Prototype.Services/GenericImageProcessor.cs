@@ -31,7 +31,7 @@ namespace Auxo.Prototype.Services
         /// <param name="request">Process image request</param>
         /// <param name="imageStream">Image stream</param>
         /// <returns>Image Process response</returns>
-        public async Task<ImageProcessResponse> ResizeImageAsJpeg(ImageProcessRequest request, Stream imageStream)
+        public async Task<ImageProcessResponse> ResizeImage(ImageProcessRequest request, Stream imageStream)
         {
             if (!await this.IsSupportedFileType(request.FileExtension))
             {
